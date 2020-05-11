@@ -1,10 +1,11 @@
 {
-  "name": "lab-node-for-test",
+  "name": "lab-node-for-apm",
   "version": "1.0.0",
   "description": "Project Lab",
   "main": "app.js",
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "elastic-apm-node": "3.4.0"
   },
   "devDependencies": {},
   "scripts": {
@@ -17,6 +18,7 @@
   },
   "keywords": [
     "docker",
+    "apm",
     "lab"
   ],
   "author": "Lab",

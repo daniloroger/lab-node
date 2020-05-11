@@ -1,3 +1,8 @@
+var apm = require('elastic-apm-node').start({
+  serviceName: 'APM-NodeApp',
+  serverUrl: 'http://svc-apm-server:8200'
+})
+
 const express = require('express');
 
 var os = require("os");
